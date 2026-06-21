@@ -352,6 +352,9 @@ body{
 .wiki-button{
    height: 30px;
 }
+.wiki-button:hover{
+   cursor: pointer;
+}
 .grid{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
