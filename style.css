@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #101418;
+   background-color: #101418;
 }
 .head{
     /* border: 1px solid white; */
@@ -411,4 +411,226 @@ footer p{
 }
 a:hover{
    text-decoration: underline;
+}
+.mobile{
+   display: none;
+}
+
+@media (max-width:376px) {
+   .mobile{
+      display: block;
+   }
+   .laptop{
+      display: none;
+   }
+   .mhead{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 50px;
+   }
+   .mhead img{
+      height: 50px;
+   }
+   .mhead2{
+      color: white
+   }
+   .mhead2 h2{
+      font-family: "Modern Antiqua", serif;
+   }
+   .minput{
+      margin: 10px auto;
+      height: 40px;
+      width: 350px;
+      border: 1px solid grey;
+      position: relative;
+   }
+   .minput2{
+      width: 90%;
+      height: 100%;
+      border: none;
+      background-color: #101418;
+      position: relative;
+   }
+   .mangle{
+      display: flex;
+      /* border: 1px solid blue; */
+      width: 40px;
+      height: 20px;
+      position: absolute;
+      top: 12px;
+      left: 250px;
+      font-size: 12px;
+      color: rgb(255, 255, 255);
+   }
+.fa-sistrix{
+      font-size: 20px;
+   }
+.msearch{
+      position: absolute;
+      width: 50px;
+      height: 100%;
+      background-color: #3366CC;
+      top: 0px;
+      right: 0px;
+      display: grid;
+      place-items: center;
+   }
+   .mgrid{
+      width: 80%;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 40px;
+      row-gap: 15px;
+   }
+   .mdiv{
+      /* border: 1px solid white; */
+      min-width: 40px;
+      min-height: 40px;
+      text-align: center;
+      
+   }
+   .mdiv a{
+      text-decoration: none;
+      color: #7da4f3;
+      font-weight: 600;
+      font-size: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .mdiv p{
+      color: rgb(176, 170, 170);
+      font-size: 15px;
+      margin-top: 10px;
+   }
+   .mread{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid green; */
+      width: 400px;
+      margin: 20px auto;
+
+   }
+   .mread button{
+      padding: 10px 40px;
+      border: 1px solid grey;
+      background-color: rgb(22, 22, 22);
+      color: white;
+      border-radius: 3px;
+      font-size: 15px;
+      color: #7E99D6;
+      font-weight: 600;
+   }
+   .mline{
+      border: none;
+      margin: 20px auto;
+      background-color: grey;
+      height: 0.5px;
+      width: 98%;
+   }
+   .mtop{
+      margin: 10px auto;
+      text-align: center;
+   }
+
+   .mimg{
+      height: 50px;
+      background-color: white;
+   }
+   .mtop p{
+      font-size: 14px;
+      color: grey;
+   }
+   .mtop a{
+      text-decoration: none;
+      color: #7E99D6;
+      font-size: 15px;
+   }
+   .mgrid2{
+      display: grid;
+      width: 90%;
+      margin: 10px auto;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      column-gap: 35px;
+      row-gap: 10px;
+   }
+   
+   .mbox{
+      /* border: 1px solid white; */
+      min-width: 50px;
+      min-height: 40px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+   }
+   .mbox img{
+      height: 40px;
+   }
+   .mbox a{
+      text-decoration: none;
+      color: #7da4f3;
+   }
+   .mbox p{
+      font-size: 15px;
+      color: grey;
+   }
+   .mlast{
+      height: 30dvh;
+      width: 95%;
+      margin: 10px auto;
+      margin-bottom: 35px;
+      border: 1px solid green;
+      background-color: rgb(84, 83, 83);
+   }
+   .mlast2{
+      width: 85%;
+      height: 30px;
+      display: flex;
+      border: 1px solid red;
+      margin: 10px auto;
+      align-items: center;
+      gap: 10px;
+   }
+   .mlast2 a{
+      text-decoration: none;
+      color: #7da4f3;
+      font-size: 14px;
+   }
+   .mlast2 img{
+      height: 30px;
+   }
+   .mlast p{
+      text-align: center;
+      font-size: 14px;
+      color: rgb(177, 177, 177);
+      margin-top: 30px;
+   }
+   .mmain-button{
+      margin: 0px auto;
+      margin-left: 50px;
+      display: flex;
+      gap: 5px;
+      margin-top: 10px;
+   }
+   .mwiki-button{
+      height: 40px;
+   }
+   .mfooter{
+      text-align: center;
+      font-size: 15px;
+      margin-bottom: 50px;
+   }
+
+   .mfooter p{
+      color: rgb(172, 166, 166);
+      line-height: 1.6;
+   }
+   .mcreate{
+      color: #7E99D6;
+   }
+   .mterms{
+      color: #7E99D6;
+   }
 }
